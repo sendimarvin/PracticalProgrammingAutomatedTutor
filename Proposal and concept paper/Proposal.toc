@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {1}Introduction}{2}
+\contentsline {subsection}{\numberline {1.1}Background}{2}
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{2}
+\contentsline {subsection}{\numberline {1.3}Objectives}{2}
+\contentsline {subsubsection}{\numberline {1.3.1}Main Objective}{2}
+\contentsline {subsubsection}{\numberline {1.3.2}Specific Objective}{2}
+\contentsline {subsection}{\numberline {1.4}scope}{2}
+\contentsline {subsection}{\numberline {1.5}Significance}{3}
+\contentsline {section}{\numberline {2}Literature Review}{3}
+\contentsline {subsection}{\numberline {2.1}Related work}{4}
+\contentsline {subsection}{\numberline {2.2}Benefits of auto-grading and online practice oriented teaching of programming}{6}
+\contentsline {section}{\numberline {3}Methodology}{7}
+\contentsline {subsection}{\numberline {3.1}Auto-grader/on-line judge}{7}
+\contentsline {subsubsection}{\numberline {3.1.1}Method of grading}{7}
+\contentsline {subsubsection}{\numberline {3.1.2}Limiting resources}{7}
+\contentsline {subsubsection}{\numberline {3.1.3}Tools available for the lecturer}{7}
+\contentsline {subsection}{\numberline {3.2}Analytics and other evaluation metrics}{7}
+\contentsline {subsection}{\numberline {3.3}Moodle}{7}
+\contentsline {section}{\numberline {4}References}{7}
+\contentsline {section}{\numberline {5}Appendices}{7}
+\contentsline {subsection}{\numberline {5.1}Appendix A: Activities Gantt chart.}{7}
+\contentsline {subsection}{\numberline {5.2}APPENDIX B: Financial Requirements}{7}
