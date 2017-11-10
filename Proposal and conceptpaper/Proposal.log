@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  10 NOV 2017 04:54
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  10 NOV 2017 05:05
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
@@ -157,15 +157,15 @@ G,.JBIG2,.JB2,.eps]
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(50.58878pt, 513.11745pt, 50.58878pt)
-* v-part:(T,H,B)=(50.58878pt, 693.79243pt, 50.58878pt)
+* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
+* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
 * \paperwidth=614.295pt
 * \paperheight=794.96999pt
-* \textwidth=513.11745pt
-* \textheight=693.79243pt
-* \oddsidemargin=-21.68121pt
-* \evensidemargin=-21.68121pt
-* \topmargin=-58.68121pt
+* \textwidth=469.75502pt
+* \textheight=650.43001pt
+* \oddsidemargin=0.0pt
+* \evensidemargin=0.0pt
+* \topmargin=-37.0pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=12.0pt
@@ -187,7 +187,7 @@ G,.JBIG2,.JB2,.eps]
 File: maklogo.png Graphic file (type png)
  <use maklogo.png>
 Package pdftex.def Info: maklogo.png used on input line 7.
-(pdftex.def)             Requested size: 102.62192pt x 89.64769pt.
+(pdftex.def)             Requested size: 93.94957pt x 82.07228pt.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./maklogo.png>]
@@ -268,12 +268,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 88--98
 
  []
 
-
-Overfull \hbox (14.8618pt too wide) in paragraph at lines 88--98
-\OT1/cmr/m/n/12 The most pop-u-lar ap-pli-ca-tion of on-line judges is in pro-g
-ram-ming con-tests such as Top-Coder, ACM/ICPC
- []
-
 [5]
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 99.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
@@ -297,19 +291,20 @@ Missing character: There is no ¤ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
+ [6]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [6] [7]
+ [7] [8]
 (Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 1993 strings out of 493323
- 28497 string characters out of 3139033
- 98449 words of memory out of 3000000
- 5524 multiletter control sequences out of 15000+200000
+ 1994 strings out of 493323
+ 28505 string characters out of 3139033
+ 98429 words of memory out of 3000000
+ 5525 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,32p,825b,253s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -318,9 +313,9 @@ x12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb>
 <C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Progr
 am Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/
 MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Proposal.pdf (7 pages, 127022 bytes).
+Output written on Proposal.pdf (8 pages, 125159 bytes).
 PDF statistics:
- 49 PDF objects out of 1000 (max. 8388607)
+ 52 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
