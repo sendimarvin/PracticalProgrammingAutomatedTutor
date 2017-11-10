@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  10 NOV 2017 05:48
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  10 NOV 2017 09:17
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
@@ -232,7 +232,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 74--89
 
  []
 
-
+[5]
 Underfull \hbox (badness 10000) in paragraph at lines 92--94
 
  []
@@ -278,7 +278,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 96--106
 
  []
 
-[5]
+[6]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
@@ -295,36 +295,36 @@ Missing character: There is no ¤ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [6]
+ [7]
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
 Missing character: There is no â in font cmr12!
 Missing character: There is no € in font cmr12!
 Missing character: There is no ™ in font cmr12!
- [7] <gantt.png, id=32, 607.51968pt x 315.42844pt>
+ [8] [9] [10] <gantt.png, id=41, 507.39563pt x 225.09094pt>
 File: gantt.png Graphic file (type png)
- <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 181.
-(pdftex.def)             Requested size: 375.80544pt x 195.12561pt.
 
-[8 <./gantt.png>] [9] (Proposal.aux) ) 
+<use gantt.png>
+Package pdftex.def Info: gantt.png used on input line 181.
+(pdftex.def)             Requested size: 469.75502pt x 208.39818pt.
+ [11 <./gantt.png>] (Proposal.aux) ) 
 Here is how much of TeX's memory you used:
  1999 strings out of 493323
  28569 string characters out of 3139033
- 100429 words of memory out of 3000000
+ 98429 words of memory out of 3000000
  5529 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,32p,825b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/a
-msfonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/
-cm/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.
-pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Proposal.pdf (9 pages, 139205 bytes).
+<C:/Program Files/MiKTeX 2.9/fonts/type1/pu
+blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
+fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
+/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
+b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
+Output written on Proposal.pdf (11 pages, 134853 bytes).
 PDF statistics:
- 57 PDF objects out of 1000 (max. 8388607)
+ 63 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 
