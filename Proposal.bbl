@@ -1,0 +1,67 @@
+\begin{thebibliography}{10}
+
+\bibitem{singh}
+R.~Singh, S.~Gulwani, and A.~Solar-Lezama, ``Automated feedback generation for
+  introductory programming assignments,'' in {\em Proceedings of the 34th ACM
+  SIGPLAN Conference on Programming Language Design and Implementation}, PLDI
+  '13, (New York, NY, USA), pp.~15--26, ACM, 2013.
+
+\bibitem{ojpot}
+G.~P. Wang, S.~Y. Chen, X.~Yang, and R.~Feng, ``Ojpot: online judge \& practice
+  oriented teaching idea in programming courses,'' {\em European Journal of
+  Engineering Education}, vol.~41, no.~3, pp.~304--319, 2016.
+
+\bibitem{muele}
+``{MUELE}.'' \url{https://muele.mak.ac.ug/}.
+
+\bibitem{moodle}
+``{Moodle}.'' \url{https://moodle.org/}.
+
+\bibitem{urkund}
+``{URKUND plagiarism plugin}.''
+  \url{https://moodle.org/plugins/plagiarism_urkund}.
+
+\bibitem{reengagement}
+``{Reengagement}.'' \url{https://moodle.org/plugins/mod_reengagement}.
+
+\bibitem{icpc}
+``{ACM ICPC}.'' \url{http://icpc.baylor.edu}.
+
+\bibitem{budzalov}
+M.~Buzdalov, A.~Buzdalova, and I.~Petrova, ``Generation of tests for
+  programming challenge tasks using multi-objective optimization,'' in {\em
+  Proceedings of the 15th Annual Conference Companion on Genetic and
+  Evolutionary Computation}, GECCO '13 Companion, (New York, NY, USA),
+  pp.~1655--1658, ACM, 2013.
+
+\bibitem{anti}
+A.~LAAKSONEN, ``A competitive programming approach to a university introductory
+  algorithms course,'' {\em International Olympiad in Informatics}, vol.~11,
+  pp.~87--92, 2017.
+
+\bibitem{tmc}
+M.~Pärtel, M.~Luukkainen, A.~Vihavainen, and T.~Vikberg, ``Test my code,''
+  {\em International Journal of Technology Enhanced Learning}, vol.~5,
+  pp.~271--283, 2013.
+
+\bibitem{clrs}
+T.~H. Cormen, C.~E. Leiserson, R.~L. Rivest, and C.~Stein, {\em Introduction to
+  Algorithms, Third Edition}.
+\newblock The MIT Press, 3rd~ed., 2009.
+
+\bibitem{checkstyle}
+``{Checkstyle}.'' \url{http://checkstyle.sourceforge.net/}.
+
+\bibitem{pmd}
+``{PMD}.'' \url{https://pmd.github.io/}.
+
+\bibitem{gds}
+M.~Andrychowicz, M.~Denil, S.~G. Colmenarejo, M.~W. Hoffman, D.~Pfau,
+  T.~Schaul, and N.~de~Freitas, ``Learning to learn by gradient descent by
+  gradient descent,'' {\em CoRR}, vol.~abs/1606.04474, 2016.
+
+\bibitem{kalman}
+D.~Kalman, ``A singularly valuable decomposition: The svd of a matrix,'' {\em
+  College Math Journal}, vol.~27, pp.~2--23, 1996.
+
+\end{thebibliography}
