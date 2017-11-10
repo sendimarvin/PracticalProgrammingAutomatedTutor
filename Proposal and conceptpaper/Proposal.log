@@ -1,9 +1,12 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  10 NOV 2017 09:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.1)  10 NOV 2017 10:03
 entering extended mode
-**./Proposal.tex
-(Proposal.tex
-LaTeX2e <2017-04-15>
-Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
+**"C:/Users/Aiko/Desktop/school/PracticalProgrammingAutomatedTutor/Proposal and
+ conceptpaper/Proposal.tex"
+
+("C:/Users/Aiko/Desktop/school/PracticalProgrammingAutomatedTutor/Proposal and 
+conceptpaper/Proposal.tex"
+LaTeX2e <2017/01/01> patch level 1
+Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -29,7 +32,7 @@ Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
 \KV@toks@=\toks14
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -57,7 +60,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -79,252 +82,91 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutvoffset=\dimen112
 \Gm@dimlist=\toks15
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (Proposal.aux)
-\openout1 = `Proposal.aux'.
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 5.
-LaTeX Font Info:    ... okay on input line 5.
-("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
-[Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
-\scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count94
-\MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks17
-) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
-)
+! LaTeX Error: File `apacite.sty' not found.
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
-Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
-Package ifluatex Info: LuaTeX not detected.
-)
-Package pdftexcmds Info: LuaTeX not detected.
-Package pdftexcmds Info: \pdf@primitive is available.
-Package pdftexcmds Info: \pdf@ifprimitive is available.
-Package pdftexcmds Info: \pdfdraftmode found.
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\epstopdf-base.sty"
-Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\grfext.sty"
-Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+Enter file name: apacite.sty
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvdefinekeys.sty"
-Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
-))
-("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
-Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+! LaTeX Error: File `apacite.sty' not found.
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
-Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: sty)
 
-("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
-Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
-Package etexcmds Info: Could not find \expanded.
-(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
-(etexcmds)             that some package has redefined \expanded.
-(etexcmds)             In the latter case, load this package earlier.
-)))
-Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
-38.
-Package grfext Info: Graphics extension search list:
-(grfext)             [.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPE
-G,.JBIG2,.JB2,.eps]
-(grfext)             \AppendGraphicsExtensions on input line 456.
-)
-*geometry* driver: auto-detecting
-*geometry* detected driver: pdftex
-*geometry* verbose mode - [ preamble ] result:
-* driver: pdftex
-* paper: <default>
-* layout: <same size as paper>
-* layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
-* h-part:(L,W,R)=(72.26999pt, 469.75502pt, 72.26999pt)
-* v-part:(T,H,B)=(72.26999pt, 650.43001pt, 72.26999pt)
-* \paperwidth=614.295pt
-* \paperheight=794.96999pt
-* \textwidth=469.75502pt
-* \textheight=650.43001pt
-* \oddsidemargin=0.0pt
-* \evensidemargin=0.0pt
-* \topmargin=-37.0pt
-* \headheight=12.0pt
-* \headsep=25.0pt
-* \topskip=12.0pt
-* \footskip=30.0pt
-* \marginparwidth=44.0pt
-* \marginparsep=10.0pt
-* \columnsep=10.0pt
-* \skip\footins=10.8pt plus 4.0pt minus 2.0pt
-* \hoffset=0.0pt
-* \voffset=0.0pt
-* \mag=1000
-* \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
-* \@reversemarginfalse
-* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+Enter file name: "C:\Program Files\MiKTeX 2.9\tex\apacite\apacite.sty
+! Undefined control sequence.
+<argument> 9\tex 
+                 \apacite \apacite .sty
+l.5 \bibliographystyle
+                      {apacite}
+? "C:\Program Files\MiKTeX 2.9\tex\apacite\apacite.sty'
+Type <return> to proceed, S to scroll future error messages,
+R to run without stopping, Q to run quietly,
+I to insert something, E to edit your file,
+1 or ... or 9 to ignore the next 1 to 9 tokens of input,
+H for help, X to quit.
+? 5
+<argument> 9\tex \apacite \apacite .st
+                                      y
+l.5 \bibliographystyle
+                      {apacite}
+? 1
+<argument> 9\tex \apacite \apacite .sty
+                                       
+l.5 \bibliographystyle
+                      {apacite}
+? 1
 
-<maklogo.png, id=1, 174.6525pt x 152.57pt>
-File: maklogo.png Graphic file (type png)
- <use maklogo.png>
-Package pdftex.def Info: maklogo.png used on input line 7.
-(pdftex.def)             Requested size: 93.94957pt x 82.07228pt.
- [1
+\filename@simple ...ename@ext {\filename@dot #2\\}
+                                                  \fi \edef \filename@base {#1}
+l.5 \bibliographystyle
+                      {apacite}
+? 2
 
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./maklogo.png>]
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 29.
-LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 29.
- [2] (Proposal.toc)
-\tf@toc=\write3
-\openout3 = `Proposal.toc'.
+\filename@simple ...{\filename@dot #2\\}\fi \edef 
+                                                  \filename@base {#1}
+l.5 \bibliographystyle
+                      {apacite}
+? 3
+<argument> "
+            C:\Program Files\MiKTeX 2
+l.5 \bibliographystyle
+                      {apacite}
+? 9
+<argument> "C:\Program Files\MiKTeX 
+                                    2
+l.5 \bibliographystyle
+                      {apacite}
+? h
+I have just deleted some text, as you asked.
+You can now delete more, or insert, or whatever.
 
+? q
+OK, entering \batchmode...
 
-[3]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 48.
- ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
-File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
-)
-LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 48.
+! LaTeX Error: File `apacite.92' not found.
 
-Underfull \hbox (badness 10000) in paragraph at lines 55--72
+Type X to quit or <RETURN> to proceed,
+or enter new name. (Default extension: 92)
 
- []
+ Enter file name: 
+! Emergency stop.
+<read *> 
+         
+l.5 \bibliographystyle
+                      {apacite}
+*** (cannot \read from terminal in nonstop modes)
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 55--72
-
- []
-
-[4]
-Underfull \hbox (badness 10000) in paragraph at lines 74--89
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 74--89
-
- []
-
-[5]
-Underfull \hbox (badness 10000) in paragraph at lines 92--94
-
- []
-
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 96--106
-
- []
-
-[6]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no  in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ë in font cmr12!
-Missing character: There is no õ in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no â in font cmr12!
-Missing character: There is no § in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [7]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ô in font cmr12!
- [8] [9] [10] <gantt.png, id=41, 507.39563pt x 225.09094pt>
-File: gantt.png Graphic file (type png)
-
-<use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 181.
-(pdftex.def)             Requested size: 469.75502pt x 208.39818pt.
- [11 <./gantt.png>] (Proposal.aux) ) 
+ 
 Here is how much of TeX's memory you used:
- 1999 strings out of 493323
- 28569 string characters out of 3139033
- 98429 words of memory out of 3000000
- 5529 multiletter control sequences out of 15000+200000
- 7894 words of font info for 28 fonts, out of 3000000 for 9000
+ 1306 strings out of 493333
+ 18097 string characters out of 3139198
+ 77473 words of memory out of 3000000
+ 4880 multiletter control sequences out of 15000+200000
+ 3938 words of font info for 15 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,32p,825b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
-<C:/Program Files/MiKTeX 2.9/fonts/type1/pu
-blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
-fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
-/cmr12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pf
-b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Proposal.pdf (11 pages, 134853 bytes).
-PDF statistics:
- 63 PDF objects out of 1000 (max. 8388607)
- 0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
-
+ 27i,0n,32p,345b,36s stack positions out of 5000i,500n,10000p,200000b,50000s
+!  ==> Fatal error occurred, no output PDF file produced!
