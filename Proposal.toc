@@ -9,15 +9,19 @@
 \contentsline {section}{\numberline {2}Literature Review}{7}
 \contentsline {subsection}{\numberline {2.1}Related work}{7}
 \contentsline {subsubsection}{\numberline {2.1.1}Muele and Moodle}{7}
-\contentsline {subsubsection}{\numberline {2.1.2}Online judges and autograders}{7}
-\contentsline {subsection}{\numberline {2.2}Benefits of auto-grading and practice oriented teaching of programming}{8}
-\contentsline {section}{\numberline {3}Methodology}{10}
-\contentsline {subsection}{\numberline {3.1}Auto-grader/on-line judge}{10}
-\contentsline {subsubsection}{\numberline {3.1.1}Method of grading}{10}
-\contentsline {subsubsection}{\numberline {3.1.2}Limiting resources}{10}
-\contentsline {subsubsection}{\numberline {3.1.3}Tools available for the lecturer}{10}
-\contentsline {subsection}{\numberline {3.2}Analytics and other evaluation metrics}{10}
-\contentsline {subsection}{\numberline {3.3}Moodle}{11}
-\contentsline {section}{\numberline {4}Appendices}{13}
-\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{13}
-\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{13}
+\contentsline {subsubsection}{\numberline {2.1.2}Building plugins for Moodle}{7}
+\contentsline {subsubsection}{\numberline {2.1.3}Plugins for Moodle}{8}
+\contentsline {subsubsection}{\numberline {2.1.4}Auto-graders/Assessment plugins for Moodle}{8}
+\contentsline {subsubsection}{\numberline {2.1.5}Online judges and autograders}{9}
+\contentsline {subsection}{\numberline {2.2}Benefits of auto-grading and practice oriented teaching of programming}{10}
+\contentsline {subsection}{\numberline {2.3}Conclusion}{11}
+\contentsline {section}{\numberline {3}Methodology}{12}
+\contentsline {subsection}{\numberline {3.1}Auto-grader/on-line judge}{12}
+\contentsline {subsubsection}{\numberline {3.1.1}Method of grading}{12}
+\contentsline {subsubsection}{\numberline {3.1.2}Limiting resources}{12}
+\contentsline {subsubsection}{\numberline {3.1.3}Tools available for the lecturer}{12}
+\contentsline {subsection}{\numberline {3.2}Analytics and other evaluation metrics}{12}
+\contentsline {subsection}{\numberline {3.3}Moodle}{13}
+\contentsline {section}{\numberline {4}Appendices}{15}
+\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{15}
+\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{15}

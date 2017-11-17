@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6300 64-bit) (preloaded format=pdflatex 2017.9.14)  10 NOV 2017 14:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  17 NOV 2017 05:37
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
@@ -195,20 +195,19 @@ Package pdftex.def Info: maklogo.png used on input line 8.
 (pdftex.def)             Requested size: 93.94957pt x 82.07228pt.
  [1
 
-{C:/Users/Isaac o/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./maklogo
-.png>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./maklogo.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <12> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <8> on input line 30.
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 30.
- [2]
-(Proposal.toc)
+ [2] (Proposal.toc)
 \tf@toc=\write3
 \openout3 = `Proposal.toc'.
 
- [3]
+
+[3]
 Underfull \hbox (badness 10000) in paragraph at lines 43--45
 
  []
@@ -255,11 +254,52 @@ Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
  [7]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [9]
 Missing character: There is no  in font cmr12!
 Missing character: There is no ù in font cmr12!
 Missing character: There is no ë in font cmr12!
@@ -267,7 +307,20 @@ Missing character: There is no õ in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [8] [9]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+ [10]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ô in font cmr12!
+ [11]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
@@ -277,31 +330,31 @@ Missing character: There is no ù in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
- [10]
+ [12]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
- [11] (Proposal.bbl
+ [13] (Proposal.bbl
 Missing character: There is no √ in font cmr12!
 Missing character: There is no § in font cmr12!
-) [12]
-<gantt.png, id=50, 507.39563pt x 225.09094pt>
+) [14]
+<gantt.png, id=57, 507.39563pt x 225.09094pt>
 File: gantt.png Graphic file (type png)
  <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 177.
+Package pdftex.def Info: gantt.png used on input line 207.
 (pdftex.def)             Requested size: 469.75502pt x 208.39818pt.
- [13 <./gantt.png>] (Proposal.aux) ) 
+ [15 <./gantt.png>] (Proposal.aux) ) 
 Here is how much of TeX's memory you used:
- 2095 strings out of 493323
- 29676 string characters out of 3129145
- 99567 words of memory out of 3000000
+ 2094 strings out of 493323
+ 29631 string characters out of 3139033
+ 100567 words of memory out of 3000000
  5615 multiletter control sequences out of 15000+200000
  8410 words of font info for 30 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 39i,6n,32p,957b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 39i,6n,32p,1009b,255s stack positions out of 5000i,500n,10000p,200000b,50000s
 <C:/Program Files/MiKTeX 2.9/fonts/type1/pu
 blic/amsfonts/cm/cmbx12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/ams
 fonts/cm/cmmi12.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm
@@ -310,9 +363,9 @@ b><C:/Program Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Pro
 gram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Program Fil
 es/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmtt12.pfb>
-Output written on Proposal.pdf (13 pages, 175428 bytes).
+Output written on Proposal.pdf (15 pages, 181750 bytes).
 PDF statistics:
- 82 PDF objects out of 1000 (max. 8388607)
+ 88 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  11 words of extra memory for PDF output out of 10000 (max. 10000000)
 

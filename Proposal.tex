@@ -101,6 +101,28 @@ SNo & Names & Registration  Number & Signature \\ \hline
 		One of the most dominant e-learning platform used worldwide is Moodle. The moodle website \cite{moodle} states that ``Moodle is a free and open-source software 	learning management system written in PHP and distributed under the GNU General Public License. Developed on pedagogical principles, Moodle is used for blended learning, distance education, flipped classroom and other e-learning projects in schools, universities, workplaces and other sectors." The Moodle platform is composed of several “components” that enable its dynamism and thus can be adopted for the project.
 		
 		``Plugins are a flexible tool set, allowing Moodle users to extend the features of the site" \cite{moodle}. Plugins for moodle can be thought of as modules or widgets with specific functionality. Currently moodle is consists of thousands of plugins developed to suite different teaching curriculum. Some of the existing plugins relevant to our project are: URKUND plagiarism plugin \cite{urkund} used for checking plagiarism in submitted files and Reengagement plugin \cite{reengagement} for sending timely feedbacks to remind students of uncompleted course activities. Since some of these plugins are open source, they can be used as sub modules in our project.
+		\subsubsection{Building plugins for Moodle}
+		Moodle has a well-structured documentation to help developers write plugins from start to publishing them on the 			website for usage. The prerequisites for plugin development are: -
+		\begin{itemize}
+			\item	one being comfortable with (Hypertext preprocessor file) PhP.
+			\item  One being able to install a database and a web server on a local machine.
+		\end{itemize}
+		 Resources for programmers with no skills of prerequisites are provided in the documentation. These include PhP 				tutorials for novice programmers and database installation video tutorials links to YouTube.
+		 If you download Moodle source code or clone it from git, you will see a bunch of files and folders. This code 				consists of Moodle core (that consists of the Very core and Core components), third party libraries and plugins. () 			Moodle has 24 different categories of plugins and uses git for development. If one wishes to develop a plugin and 			finds out it has already been developed, then they may opt to contribute to its code. For one to develop a new kind 		of plugin, a skeleton of a plugin is provided (template) with basic PhP code that displays a simple page. This only 				contains the “page” API which all plugins that display something on the webpage include. The documentation 				continues to explain the cloned repository file structure, callbacks, Core APIs, adding basic contents to your page, 			to publishing your plugin into Moodle’s Navigation. A further documented tutorial to manipulate Databases in Moodle 		is provided for advanced plugins development.
+		 \subsubsection{Plugins for Moodle}
+		 Moodle has thousands of plugins each falling in different categories/types. Some of these are :- 
+		 \begin{itemize}
+			\item Anti-viruses: which check for viruses in uploaded submitted files. “Antivirus scanner plugins provide 						functionality for virus scanning user uploaded files using third-party virus scanning tools in Moodle. For 				example: ClamAV.” 
+			\item  Quiz reports: For displaying and analyzing the results of quizzes, or just plug miscellaneous behavior 					into the quiz module.
+			\item Question types: Different types of question (e.g. multiple-choice, drag-and-drop) that can be used in 					quizzes and other activities.
+			\item Question behaviors: Control how student interact with questions during an attempt.
+			\item Plagiarism plugins: Define external services to process submitted files and content. The files handled 						include reports and programming work.
+		\end{itemize}
+		As far as programming assignment plugins are concerned, the only plugin developed is “Programming Code 				Plagiarism”. “This plugin integrates two well-known source code plagiarism detectors MOSS and JPlag into Moodle to 			compare the similarities of programming assignments of students within the same course. By integrating these 				detectors seamlessly into Moodle, it eliminates the overhead of manually preparing the assignments to feed into 				these detectors, present the reports with an interactive interface and, more importantly, serve as an educational 			tool to provide feedback to students and raise their awareness of plagiarism.”() The plugin has a comparison view 			that looks for similarities in work done by one student to the rest of the students. By ticking the checkbox "Show 				similarity between <someone> with other students", lecturers can also see the similar parts of that students with 			everyone in the class (not just pair to pair).
+		 \subsubsection{Auto-graders/Assessment plugins for Moodle}
+		 On Moodle, a lecturer/instructor can add an assignment activity for students. This involves describing the 					assignment nature where a series of steps are attended to in a chronological order viz. Assignment name, 					description, Due date, require students to click submit button, etc. As far as our project is concerned, the most 				interesting part on the assignment settings is Grading. There are three options to choose a grading method. Viz. 				simple direct grading (entering a grade or scale item), Marking guide and Rubric. \\
+		 \textbf{Marking guide}: A marking guide is an advanced grading method where a teacher enters a comment per 				criterion and a mark up to a maximum. This involves creating a marking guide that is to be followed by students and 			markers in order to know what is required and the maximum mark per criterion is provided too. This process involves 		creating a set of criterions and to avoid duplicates, criterions can be added to “frequently used criterions” section. 			This is a manual marking guide that the teacher will follow after students submit their solutions. \\
+		 \textbf{Rubric}: “Rubrics are advanced grading forms used for criteria-based assessment. The rubric consists of a 			set of criteria. For each criterion, several descriptive levels are provided. A numerical grade is assigned to each of 			these levels. The rater chooses which level answers/describes the given criterion best. The raw rubric score is 				calculated as a sum of all criteria grades. The final grade is calculated by comparing the actual score with the worst/			best possible score that could be received.”
 		\subsubsection{Online judges and autograders}
 		The most popular application of online judges is in programming contests such as TopCoder, ACM/ICPC and Google Code Jam. The most prominent of these is the ACM/ICPC \cite{icpc}. The ACM/ICPC consists of algorithmic and programming problems for contestants to solve. The contestants' submissions are evaluated based on the output of their programs. A typical problem in this contest consists of the following parts:
 		\begin{itemize}
@@ -140,7 +162,15 @@ SNo & Names & Registration  Number & Signature \\ \hline
 		They conclude their results by remarking that the EC class performed better because the online
 	judge system made the students more enthusiastic about the material they were studying. It was
 	also observed that the general programming abilities of the EC class were improved much better
-	than those of the control class
+	than those of the control class. 
+	
+	\subsection{Conclusion}
+	In computing, time is an important aspect. This can be taken care of if we avoid creating already existing technology 			“reinventing the wheel”. If we are to create our own project from scratch it will be tedious. We will be required to design a 		whole complete site with a perfect interface and backend functionality for the project to be viable. With the presence of 		existing open source projects like the one cited above i.e. Moodle, we can collaborate with them and contribute to their 			source code. In so doing, the advantages encountered will be:- 
+	 \begin{itemize}
+			\item More time to concentrate on the project’s main functionality and objectives.
+			\item 	After development, the project will not be rendered trivial. Moodle being a popular platform 							worldwide, our efforts of marketing for a system would be exponentially reduced to zero.
+			\item	The main institute we are targeting to use our project’s deliverable (plugin) is Makerere University. As 					stated earlier, this institute has its own E-Learning Environment (MUELE) which also runs on the 						Moodle framework. Thus, implying that it can perfectly run any plugin run by the Moodle website.
+		\end{itemize}
 
 \newpage
 
