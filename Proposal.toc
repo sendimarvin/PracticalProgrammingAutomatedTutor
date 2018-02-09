@@ -1,40 +1,42 @@
-\contentsline {section}{\numberline {1}Introduction}{4}
-\contentsline {subsection}{\numberline {1.1}Background}{4}
-\contentsline {subsection}{\numberline {1.2}Problem Statement}{4}
-\contentsline {subsection}{\numberline {1.3}Objectives}{5}
-\contentsline {subsubsection}{\numberline {1.3.1}Main Objective}{5}
-\contentsline {subsubsection}{\numberline {1.3.2}Specific Objectives}{5}
-\contentsline {subsection}{\numberline {1.4}Scope}{5}
-\contentsline {subsection}{\numberline {1.5}Significance}{5}
-\contentsline {section}{\numberline {2}Literature Review}{7}
-\contentsline {subsection}{\numberline {2.1}Learning Management Systems}{7}
-\contentsline {subsubsection}{\numberline {2.1.1}Moodle}{7}
-\contentsline {subsubsection}{\numberline {2.1.2}Massive Open Online Courses}{7}
-\contentsline {subsection}{\numberline {2.2}Methods of Delivery}{8}
-\contentsline {subsubsection}{\numberline {2.2.1}Asynchronous}{8}
-\contentsline {subsubsection}{\numberline {2.2.2}Synchronous}{8}
-\contentsline {subsubsection}{\numberline {2.2.3}Flipped Classroom}{8}
-\contentsline {subsection}{\numberline {2.3}Related work}{9}
-\contentsline {subsubsection}{\numberline {2.3.1}MUELE}{9}
-\contentsline {subsubsection}{\numberline {2.3.2}Building plugins for Moodle}{9}
-\contentsline {subsubsection}{\numberline {2.3.3}Plugins for Moodle}{9}
-\contentsline {subsubsection}{\numberline {2.3.4}Auto-graders/Assessment plugins for Moodle}{10}
-\contentsline {subsubsection}{\numberline {2.3.5}Online judges and autograders}{11}
-\contentsline {subsection}{\numberline {2.4}Benefits of auto-grading and practice oriented teaching of programming}{11}
-\contentsline {subsection}{\numberline {2.5}Conclusion}{12}
-\contentsline {section}{\numberline {3}Methodology}{13}
-\contentsline {subsection}{\numberline {3.1}Performing the literature review}{13}
-\contentsline {subsection}{\numberline {3.2}Designing the system}{13}
-\contentsline {subsubsection}{\numberline {3.2.1}Research techniques}{13}
-\contentsline {subsubsection}{\numberline {3.2.2}UML Diagrams}{13}
-\contentsline {subsection}{\numberline {3.3}Implementing the Proposed System}{13}
-\contentsline {subsubsection}{\numberline {3.3.1}Android Studio}{13}
-\contentsline {subsubsection}{\numberline {3.3.2}NetBeans}{14}
-\contentsline {subsubsection}{\numberline {3.3.3}Wamp Server}{14}
-\contentsline {subsection}{\numberline {3.4}Other Software and Applicatins for Development}{14}
-\contentsline {subsubsection}{\numberline {3.4.1}Github}{14}
-\contentsline {subsubsection}{\numberline {3.4.2}Latex}{15}
-\contentsline {subsection}{\numberline {3.5}Testing the system}{15}
-\contentsline {section}{\numberline {4}Appendices}{16}
-\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{16}
-\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{16}
+\contentsline {section}{\numberline {1}Introduction}{5}
+\contentsline {subsection}{\numberline {1.1}Background}{5}
+\contentsline {subsection}{\numberline {1.2}Problem Statement}{5}
+\contentsline {subsection}{\numberline {1.3}Objectives}{6}
+\contentsline {subsubsection}{\numberline {1.3.1}Main Objective}{6}
+\contentsline {subsubsection}{\numberline {1.3.2}Specific Objectives}{6}
+\contentsline {subsection}{\numberline {1.4}Scope}{6}
+\contentsline {subsection}{\numberline {1.5}Significance}{6}
+\contentsline {section}{\numberline {2}Literature Review}{8}
+\contentsline {subsection}{\numberline {2.1}Learning Management Systems}{8}
+\contentsline {subsubsection}{\numberline {2.1.1}Moodle}{8}
+\contentsline {subsubsection}{\numberline {2.1.2}Massive Open Online Courses}{8}
+\contentsline {subsection}{\numberline {2.2}Methods of Delivery}{9}
+\contentsline {subsubsection}{\numberline {2.2.1}Asynchronous}{9}
+\contentsline {subsubsection}{\numberline {2.2.2}Synchronous}{9}
+\contentsline {subsubsection}{\numberline {2.2.3}Flipped Classroom}{9}
+\contentsline {subsection}{\numberline {2.3}Related work}{10}
+\contentsline {subsubsection}{\numberline {2.3.1}MUELE}{10}
+\contentsline {subsubsection}{\numberline {2.3.2}Building plugins for Moodle}{10}
+\contentsline {subsubsection}{\numberline {2.3.3}Plugins for Moodle}{10}
+\contentsline {subsubsection}{\numberline {2.3.4}Auto-graders/Assessment plugins for Moodle}{11}
+\contentsline {subsubsection}{\numberline {2.3.5}Online judges and autograders}{12}
+\contentsline {subsection}{\numberline {2.4}Benefits of auto-grading and practice oriented teaching of programming}{12}
+\contentsline {subsection}{\numberline {2.5}Conclusion}{13}
+\contentsline {section}{\numberline {3}Methodology}{14}
+\contentsline {subsection}{\numberline {3.1}Data collection Methods and Tools}{14}
+\contentsline {subsubsection}{\numberline {3.1.1}Literature Review}{14}
+\contentsline {subsubsection}{\numberline {3.1.2}Interveiwing}{14}
+\contentsline {subsubsection}{\numberline {3.1.3}Questionnaires}{14}
+\contentsline {subsection}{\numberline {3.2}Designing the system}{14}
+\contentsline {subsubsection}{\numberline {3.2.1}UML Diagrams}{15}
+\contentsline {subsection}{\numberline {3.3}Implementing the Proposed System}{16}
+\contentsline {subsubsection}{\numberline {3.3.1}Android Studio}{16}
+\contentsline {subsubsection}{\numberline {3.3.2}NetBeans}{16}
+\contentsline {subsubsection}{\numberline {3.3.3}Wamp Server}{16}
+\contentsline {subsection}{\numberline {3.4}Other Software and Applications for Development}{16}
+\contentsline {subsubsection}{\numberline {3.4.1}Github}{16}
+\contentsline {subsubsection}{\numberline {3.4.2}Latex}{17}
+\contentsline {subsection}{\numberline {3.5}Testing the system}{17}
+\contentsline {section}{\numberline {4}Appendices}{18}
+\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{18}
+\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{18}

@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.4.1)  5 FEB 2018 20:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.18 (MiKTeX 2.9.6350 64-bit) (preloaded format=pdflatex 2017.11.9)  9 FEB 2018 03:49
 entering extended mode
 **./Proposal.tex
 (Proposal.tex
-LaTeX2e <2017/01/01> patch level 1
-Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
+LaTeX2e <2017-04-15>
+Babel <3.10> and hyphenation patterns for 75 language(s) loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
 Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\size12.clo"
@@ -21,15 +21,23 @@ File: size12.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
 \belowcaptionskip=\skip42
 \bibindent=\dimen102
 )
+("C:\Program Files\MiKTeX 2.9\tex\latex\float\float.sty"
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count87
+\float@exts=\toks14
+\float@box=\box26
+\@float@everytoks=\toks15
+\@floatcapt=\box27
+)
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
 Package: graphicx 2014/10/28 v1.0g Enhanced LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
 Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks14
+\KV@toks@=\toks16
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
-Package: graphics 2016/10/09 v1.0u Standard LaTeX Graphics (DPC,SPQR)
+Package: graphics 2017/04/14 v1.1b Standard LaTeX Graphics (DPC,SPQR)
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
 Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
@@ -48,7 +56,7 @@ Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
 Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 )
-\Gread@gobject=\count87
+\Gread@gobject=\count88
 ))
 \Gin@req@height=\dimen103
 \Gin@req@width=\dimen104
@@ -57,7 +65,7 @@ Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
 Package: geometry 2010/09/12 v5.6 Page Geometry
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
-Package: ifpdf 2016/05/14 v3.1 Provides the ifpdf switch
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
 )
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
 Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
@@ -66,9 +74,9 @@ Package ifvtex Info: VTeX not detected.
 ("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
 Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 )
-\Gm@cnth=\count88
-\Gm@cntv=\count89
-\c@Gm@tempcnt=\count90
+\Gm@cnth=\count89
+\Gm@cntv=\count90
+\c@Gm@tempcnt=\count91
 \Gm@bindingoffset=\dimen105
 \Gm@wd@mp=\dimen106
 \Gm@odd@mp=\dimen107
@@ -77,42 +85,43 @@ Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
 \Gm@layoutheight=\dimen110
 \Gm@layouthoffset=\dimen111
 \Gm@layoutvoffset=\dimen112
-\Gm@dimlist=\toks15
+\Gm@dimlist=\toks17
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-(C:\Users\Aiko\AppData\Roaming\MiKTeX\2.9\tex\latex\url\url.sty
+("C:\Program Files\MiKTeX 2.9\tex\latex\url\url.sty"
 \Urlmuskip=\muskip10
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 ) (Proposal.aux)
 \openout1 = `Proposal.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 7.
+LaTeX Font Info:    ... okay on input line 7.
+
 ("C:\Program Files\MiKTeX 2.9\tex\context\base\supp-pdf.mkii"
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count91
+\scratchcounter=\count92
 \scratchdimen=\dimen113
-\scratchbox=\box26
-\nofMPsegments=\count92
-\nofMParguments=\count93
-\everyMPshowfont=\toks16
-\MPscratchCnt=\count94
+\scratchbox=\box28
+\nofMPsegments=\count93
+\nofMParguments=\count94
+\everyMPshowfont=\toks18
+\MPscratchCnt=\count95
 \MPscratchDim=\dimen114
-\MPnumerator=\count95
-\makeMPintoPDFobject=\count96
-\everyMPtoPDFconversion=\toks17
+\MPnumerator=\count96
+\makeMPintoPDFobject=\count97
+\everyMPtoPDFconversion=\toks19
 ) ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
-Package: pdftexcmds 2016/05/21 v0.22 Utility functions of pdfTeX for LuaTeX (HO
+Package: pdftexcmds 2017/03/19 v0.25 Utility functions of pdfTeX for LuaTeX (HO
 )
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
@@ -190,98 +199,97 @@ G,.JBIG2,.JB2,.eps]
 <maklogo.png, id=1, 174.6525pt x 152.57pt>
 File: maklogo.png Graphic file (type png)
  <use maklogo.png>
-Package pdftex.def Info: maklogo.png used on input line 8.
+Package pdftex.def Info: maklogo.png used on input line 9.
 (pdftex.def)             Requested size: 93.94957pt x 82.07228pt.
  [1
 
-{C:/Users/Aiko/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map} <./maklogo.pn
-g>]
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./maklogo.png>]
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <12> on input line 30.
+(Font)              <12> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <8> on input line 30.
+(Font)              <8> on input line 31.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <6> on input line 30.
- [2]
-(Proposal.toc)
+(Font)              <6> on input line 31.
+ [2] (Proposal.toc
+[3])
 \tf@toc=\write3
 \openout3 = `Proposal.toc'.
 
- [3]
+ [4]
 
-LaTeX Warning: Citation `singh' on page 4 undefined on input line 43.
+LaTeX Warning: Citation `singh' on page 5 undefined on input line 44.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 43--44
+Underfull \hbox (badness 10000) in paragraph at lines 44--45
 
  []
 
 
-LaTeX Warning: Citation `moodle' on page 4 undefined on input line 45.
+LaTeX Warning: Citation `moodle' on page 5 undefined on input line 46.
 
 
-LaTeX Warning: Citation `muele' on page 4 undefined on input line 45.
+LaTeX Warning: Citation `muele' on page 5 undefined on input line 46.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-Underfull \hbox (badness 10000) in paragraph at lines 47--48
+Underfull \hbox (badness 10000) in paragraph at lines 48--49
 
  []
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[4]
-LaTeX Font Info:    Try loading font information for OMS+cmr on input line 55.
+[5]
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 56.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
 File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12> not available
-(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 55.
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 56.
 
-Underfull \hbox (badness 10000) in paragraph at lines 62--64
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 65--66
+Underfull \hbox (badness 10000) in paragraph at lines 63--65
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--87
+Underfull \hbox (badness 10000) in paragraph at lines 66--67
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 72--87
-
- []
-
-[5] [6]
-Underfull \hbox (badness 10000) in paragraph at lines 91--92
+Underfull \hbox (badness 10000) in paragraph at lines 73--88
 
  []
 
 
-LaTeX Warning: Citation `singh' on page 7 undefined on input line 93.
+Underfull \hbox (badness 10000) in paragraph at lines 73--88
+
+ []
+
+[6] [7]
+Underfull \hbox (badness 10000) in paragraph at lines 92--93
+
+ []
 
 
-LaTeX Warning: Citation `ojpot' on page 7 undefined on input line 93.
+LaTeX Warning: Citation `singh' on page 8 undefined on input line 94.
 
 
-LaTeX Warning: Citation `lms' on page 7 undefined on input line 96.
+LaTeX Warning: Citation `ojpot' on page 8 undefined on input line 94.
 
 
-LaTeX Warning: Citation `lmsstats' on page 7 undefined on input line 96.
+LaTeX Warning: Citation `lms' on page 8 undefined on input line 97.
 
 
-LaTeX Warning: Citation `moodle' on page 7 undefined on input line 98.
+LaTeX Warning: Citation `lmsstats' on page 8 undefined on input line 97.
 
 
-LaTeX Warning: Citation `moodle' on page 7 undefined on input line 98.
+LaTeX Warning: Citation `moodle' on page 8 undefined on input line 99.
+
+
+LaTeX Warning: Citation `moodle' on page 8 undefined on input line 99.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -290,66 +298,66 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
 
-LaTeX Warning: Citation `mooc' on page 7 undefined on input line 100.
+LaTeX Warning: Citation `mooc' on page 8 undefined on input line 101.
 
 
-LaTeX Warning: Citation `ccentral' on page 7 undefined on input line 100.
+LaTeX Warning: Citation `ccentral' on page 8 undefined on input line 101.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-LaTeX Warning: Citation `havard' on page 7 undefined on input line 100.
+LaTeX Warning: Citation `havard' on page 8 undefined on input line 101.
 
 
-LaTeX Warning: Citation `mit' on page 7 undefined on input line 100.
+LaTeX Warning: Citation `mit' on page 8 undefined on input line 101.
 
 
-LaTeX Warning: Citation `stanford' on page 7 undefined on input line 100.
+LaTeX Warning: Citation `stanford' on page 8 undefined on input line 101.
 
 
-LaTeX Warning: Citation `ccentral' on page 7 undefined on input line 100.
-
-[7]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no î in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no î in font cmr12!
-
-
-LaTeX Warning: Citation `async' on page 8 undefined on input line 112.
-
-
-LaTeX Warning: Citation `muele' on page 8 undefined on input line 120.
+LaTeX Warning: Citation `ccentral' on page 8 undefined on input line 101.
 
 [8]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no î in font cmr12!
 
-LaTeX Warning: Citation `moodle' on page 9 undefined on input line 123.
+
+LaTeX Warning: Citation `async' on page 9 undefined on input line 113.
 
 
-LaTeX Warning: Citation `urkund' on page 9 undefined on input line 123.
+LaTeX Warning: Citation `muele' on page 9 undefined on input line 121.
+
+[9]
+
+LaTeX Warning: Citation `moodle' on page 10 undefined on input line 124.
 
 
-LaTeX Warning: Citation `reengagement' on page 9 undefined on input line 123.
+LaTeX Warning: Citation `urkund' on page 10 undefined on input line 124.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 123--124
+LaTeX Warning: Citation `reengagement' on page 10 undefined on input line 124.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 124--125
 
  []
 
 
-LaTeX Warning: Citation `moodle' on page 9 undefined on input line 131.
+LaTeX Warning: Citation `moodle' on page 10 undefined on input line 132.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -366,57 +374,57 @@ Missing character: There is no ú in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ù in font cmr12!
-[9]
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ú in font cmr12!
-Missing character: There is no ‚ in font cmr12!
-Missing character: There is no Ä in font cmr12!
-Missing character: There is no ù in font cmr12!
-
-
-LaTeX Warning: Citation `icpc' on page 10 undefined on input line 147.
-
 [10]
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ú in font cmr12!
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
+Missing character: There is no ù in font cmr12!
+
+
+LaTeX Warning: Citation `icpc' on page 11 undefined on input line 148.
+
+[11]
+Missing character: There is no ‚ in font cmr12!
+Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
 
-LaTeX Warning: Citation `ojpot' on page 11 undefined on input line 158.
+LaTeX Warning: Citation `ojpot' on page 12 undefined on input line 159.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-LaTeX Warning: Citation `budzalov' on page 11 undefined on input line 160.
+LaTeX Warning: Citation `budzalov' on page 12 undefined on input line 161.
 
 
-LaTeX Warning: Citation `anti' on page 11 undefined on input line 162.
+LaTeX Warning: Citation `anti' on page 12 undefined on input line 163.
 
 
-LaTeX Warning: Citation `tmc' on page 11 undefined on input line 162.
+LaTeX Warning: Citation `tmc' on page 12 undefined on input line 163.
 
 
-LaTeX Warning: Citation `clrs' on page 11 undefined on input line 162.
+LaTeX Warning: Citation `clrs' on page 12 undefined on input line 163.
 
 Missing character: There is no  in font cmr12!
 Missing character: There is no ù in font cmr12!
@@ -426,17 +434,17 @@ Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
 
-LaTeX Warning: Citation `ojpot' on page 11 undefined on input line 169.
+LaTeX Warning: Citation `ojpot' on page 12 undefined on input line 170.
 
 
-LaTeX Warning: Citation `ojpot' on page 11 undefined on input line 169.
+LaTeX Warning: Citation `ojpot' on page 12 undefined on input line 170.
 
-[11]
+[12]
 
-LaTeX Warning: Citation `ojpot' on page 12 undefined on input line 176.
+LaTeX Warning: Citation `ojpot' on page 13 undefined on input line 177.
 
 
-LaTeX Warning: Citation `ojpot' on page 12 undefined on input line 176.
+LaTeX Warning: Citation `ojpot' on page 13 undefined on input line 177.
 
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
@@ -450,57 +458,63 @@ Missing character: There is no ô in font cmr12!
 Missing character: There is no ‚ in font cmr12!
 Missing character: There is no Ä in font cmr12!
 Missing character: There is no ô in font cmr12!
-[12]
+[13] <usecase.PNG, id=51, 554.82281pt x 385.44pt>
+File: usecase.PNG Graphic file (type png)
+ <use usecase.PNG>
+Package pdftex.def Info: usecase.PNG used on input line 213.
+(pdftex.def)             Requested size: 469.75502pt x 326.34341pt.
+ [14]
 
-LaTeX Warning: Citation `astudio' on page 13 undefined on input line 218.
+LaTeX Warning: Citation `astudio' on page 15 undefined on input line 227.
 
-[13]
+[15 <./usecase.PNG>]
 
-LaTeX Warning: Citation `netbeans' on page 14 undefined on input line 229.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 229--230
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 234--235
-
- []
+LaTeX Warning: Citation `netbeans' on page 16 undefined on input line 238.
 
 
-LaTeX Warning: Citation `git' on page 14 undefined on input line 241.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 241--242
+Underfull \hbox (badness 10000) in paragraph at lines 238--239
 
  []
 
 
-LaTeX Warning: Citation `latex' on page 14 undefined on input line 246.
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 246--247
+Underfull \hbox (badness 10000) in paragraph at lines 243--244
 
  []
 
-[14] [15]
+
+LaTeX Warning: Citation `git' on page 16 undefined on input line 250.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 250--251
+
+ []
+
+[16]
+
+LaTeX Warning: Citation `latex' on page 17 undefined on input line 255.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 255--256
+
+ []
+
+[17]
 No file Proposal.bbl.
-<gantt.png, id=57, 507.39563pt x 225.09094pt>
+<gantt.png, id=65, 507.39563pt x 225.09094pt>
 File: gantt.png Graphic file (type png)
  <use gantt.png>
-Package pdftex.def Info: gantt.png used on input line 267.
+Package pdftex.def Info: gantt.png used on input line 276.
 (pdftex.def)             Requested size: 469.75502pt x 208.39818pt.
- [16 <./gantt.png>] (Proposal.aux)
+ [18 <./gantt.png>] (Proposal.aux)
 
 LaTeX Warning: There were undefined references.
 
  ) 
 Here is how much of TeX's memory you used:
- 2096 strings out of 493333
- 29664 string characters out of 3139198
- 100106 words of memory out of 3000000
- 5612 multiletter control sequences out of 15000+200000
+ 2161 strings out of 493323
+ 30462 string characters out of 3139033
+ 102883 words of memory out of 3000000
+ 5680 multiletter control sequences out of 15000+200000
  7894 words of font info for 28 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
  39i,6n,32p,1051b,257s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -509,9 +523,9 @@ ogram Files/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Program Fi
 les/MiKTeX 2.9/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on Proposal.pdf (16 pages, 153834 bytes).
+Output written on Proposal.pdf (18 pages, 166584 bytes).
 PDF statistics:
- 79 PDF objects out of 1000 (max. 8388607)
+ 87 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 11 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 16 words of extra memory for PDF output out of 10000 (max. 10000000)
 

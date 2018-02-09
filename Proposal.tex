@@ -1,4 +1,5 @@
 \documentclass[12pt]{article}
+\usepackage{float}
 \usepackage{graphicx}
 \usepackage[margin=1in]{geometry}
 \usepackage{url}
@@ -195,15 +196,23 @@ SNo & Names & Registration  Number & Signature \\ \hline
 \newpage
 
 \section{Methodology}
-	In this section, we explain the methods and tools that we're going to use to complete this project. The proposed system is going to be built as a plugin for the Moodle online learning platform. It will consist of a website and a mobile application. Users of the system will be lecturers and students.
-	\subsection{Performing the literature review}
-		
+	
+	\subsection{Data collection Methods and Tools}
+		Expected requirements of the plugin will come from sources like reading articles about online contests, searching and using online similar platforms (both educational and non-educational based), designing and distributing interviews to Makerere Lecturers that teach course units in the context of this problem. All this will help us agree in a common ground of designing a system that is in line with their expectations.
+		\subsubsection{Literature Review}
+			This will involve researching on the internet for relevant information and data, reading literature about existing E-learning platforms with or without auto grader functionality. The information obtained from such documentation will in part be necessary for the identification and analysis of the requirements needed to accomplish the implementation of the system, and for coming up with strategies to take advantage of the weaknesses of the existing systems.
+		\subsubsection{Interveiwing}
+			Interviews will be made to acquire knowledge through seeking for advice from experienced instructors and experts as well as people with knowledge about Blended learning, flipped classrooms and how they find the existing systems that support them.
+		\subsubsection{Questionnaires}
+			A few programming course instructors at Makerere University will take part of the study where they will be handled forms that will involve questions on how best the system to be designed and their expectations from it. 
+
 	\subsection{Designing the  system}
-		\subsubsection{Research techniques}
-			\begin{itemize}
-				\item Questionnaire
-				\item Interview
-			\end{itemize}
+		Below is a use case diagram showing the interaction between the users and the main features of the system.
+		
+		\begin{figure}[H]
+			\begin{center} \includegraphics[width=1\linewidth]{usecase.PNG} \end{center}
+		\end{figure}
+
 		\subsubsection{UML Diagrams}
 		The Unified Modeling Language (UML) is a general-purpose, developmental, modeling language in the field of software engineering, that is intended to provide a standard way to visualize the design of a system. We will use UML to design the system. Below are the UML diagrams that are going to be used in designing the system.
 			\begin{itemize}
