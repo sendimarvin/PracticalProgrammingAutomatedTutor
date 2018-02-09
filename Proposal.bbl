@@ -1,0 +1,108 @@
+\begin{thebibliography}{10}
+
+\bibitem{singh}
+R.~Singh, S.~Gulwani, and A.~Solar-Lezama, ``Automated feedback generation for
+  introductory programming assignments,'' in {\em Proceedings of the 34th ACM
+  SIGPLAN Conference on Programming Language Design and Implementation}, PLDI
+  '13, (New York, NY, USA), pp.~15--26, ACM, 2013.
+
+\bibitem{moodle}
+``{Moodle}.'' \url{https://moodle.org/}.
+\newblock Retrieved: 2017-11-24.
+
+\bibitem{muele}
+``{MUELE}.'' \url{https://muele.mak.ac.ug/}.
+\newblock Retrieved: 2017-11-24.
+
+\bibitem{ojpot}
+G.~P. Wang, S.~Y. Chen, X.~Yang, and R.~Feng, ``Ojpot: online judge \& practice
+  oriented teaching idea in programming courses,'' {\em European Journal of
+  Engineering Education}, vol.~41, no.~3, pp.~304--319, 2016.
+
+\bibitem{lms}
+R.~K. Ellis, ``Field guide to learning management,'' {\em ASTD Learning
+  Circuits}, 2009.
+
+\bibitem{lmsstats}
+``{5th Annual LMS Update}.''
+  \url{http://edutechnica.com/2017/09/17/5th-annual-lms-data-update/}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{mooc}
+A.~M. Kaplan and M.~Haenlein, ``Higher education and the digital revolution:
+  About moocs, spocs and the cookie monster,'' {\em Business Horizons},
+  vol.~59, pp.~441 -- 450, 2016.
+
+\bibitem{ccentral}
+``{A Product at Every Price: A Review of MOOC Stats and Trends in 2017}.''
+  \url{https://www.class-central.com/report/moocs-stats-and-trends-2017/}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{havard}
+``{Harvard Online}.'' \url{https://online-learning.harvard.edu/}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{mit}
+``{MIT OpenCourseWare}.'' \url{https://ocw.mit.edu/index.htm/}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{stanford}
+``{Stanford Online}.'' \url{https://online.stanford.edu/}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{async}
+H.~Stefan, ``Asynchronous and synchronous e-learning,'' {\em Educause
+  Quarterly}, vol.~4, pp.~51 -- 55, 2008.
+
+\bibitem{urkund}
+``{URKUND plagiarism plugin}.''
+  \url{https://moodle.org/plugins/plagiarism_urkund}.
+\newblock Retrieved: 2017-11-24.
+
+\bibitem{reengagement}
+``{Reengagement}.'' \url{https://moodle.org/plugins/mod_reengagement}.
+\newblock Retrieved: 2017-11-24.
+
+\bibitem{icpc}
+``{ACM ICPC}.'' \url{http://icpc.baylor.edu}.
+
+\bibitem{budzalov}
+M.~Buzdalov, A.~Buzdalova, and I.~Petrova, ``Generation of tests for
+  programming challenge tasks using multi-objective optimization,'' in {\em
+  Proceedings of the 15th Annual Conference Companion on Genetic and
+  Evolutionary Computation}, GECCO '13 Companion, (New York, NY, USA),
+  pp.~1655--1658, ACM, 2013.
+
+\bibitem{anti}
+A.~LAAKSONEN, ``A competitive programming approach to a university introductory
+  algorithms course,'' {\em International Olympiad in Informatics}, vol.~11,
+  pp.~87--92, 2017.
+
+\bibitem{tmc}
+M.~Pärtel, M.~Luukkainen, A.~Vihavainen, and T.~Vikberg, ``Test my code,''
+  {\em International Journal of Technology Enhanced Learning}, vol.~5,
+  pp.~271--283, 2013.
+
+\bibitem{clrs}
+T.~H. Cormen, C.~E. Leiserson, R.~L. Rivest, and C.~Stein, {\em Introduction to
+  Algorithms, Third Edition}.
+\newblock The MIT Press, 3rd~ed., 2009.
+
+\bibitem{astudio}
+``{Android Studio}.''
+  \url{https://developer.android.com/studio/intro/index.html}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{netbeans}
+``{NetBeans}.'' \url{https://netbeans.org/community/releases/82/}.
+\newblock Retrieved: 2018-01-24.
+
+\bibitem{git}
+A.~Williams, ``Andreessen horowitz is investing an eye-popping \$100 million
+  into github,'' {\em TechCrunch}, 2012.
+
+\bibitem{latex}
+``Latex.'' \url{https://www.latex-project.org/}.
+\newblock Retrieved: 2018-01-24.
+
+\end{thebibliography}

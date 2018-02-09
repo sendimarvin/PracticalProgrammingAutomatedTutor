@@ -5,7 +5,7 @@
 \contentsline {subsubsection}{\numberline {1.3.1}Main Objective}{6}
 \contentsline {subsubsection}{\numberline {1.3.2}Specific Objectives}{6}
 \contentsline {subsection}{\numberline {1.4}Scope}{6}
-\contentsline {subsection}{\numberline {1.5}Significance}{6}
+\contentsline {subsection}{\numberline {1.5}Significance}{7}
 \contentsline {section}{\numberline {2}Literature Review}{8}
 \contentsline {subsection}{\numberline {2.1}Learning Management Systems}{8}
 \contentsline {subsubsection}{\numberline {2.1.1}Moodle}{8}
@@ -37,6 +37,6 @@
 \contentsline {subsubsection}{\numberline {3.4.1}Github}{16}
 \contentsline {subsubsection}{\numberline {3.4.2}Latex}{17}
 \contentsline {subsection}{\numberline {3.5}Testing the system}{17}
-\contentsline {section}{\numberline {4}Appendices}{18}
-\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{18}
-\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{18}
+\contentsline {section}{\numberline {4}Appendices}{20}
+\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{20}
+\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{20}
