@@ -16,27 +16,27 @@
 \contentsline {subsubsection}{\numberline {2.2.3}Flipped Classroom}{9}
 \contentsline {subsection}{\numberline {2.3}Related work}{10}
 \contentsline {subsubsection}{\numberline {2.3.1}MUELE}{10}
-\contentsline {subsubsection}{\numberline {2.3.2}Building plugins for Moodle}{10}
+\contentsline {subsubsection}{\numberline {2.3.2}Building Plugins for Moodle}{10}
 \contentsline {subsubsection}{\numberline {2.3.3}Plugins for Moodle}{10}
-\contentsline {subsubsection}{\numberline {2.3.4}Auto-graders/Assessment plugins for Moodle}{11}
-\contentsline {subsubsection}{\numberline {2.3.5}Online judges and autograders}{12}
-\contentsline {subsection}{\numberline {2.4}Benefits of auto-grading and practice oriented teaching of programming}{12}
+\contentsline {subsubsection}{\numberline {2.3.4}Auto-graders/Assessment Plugins for Moodle}{11}
+\contentsline {subsubsection}{\numberline {2.3.5}Online Judges and Autograders}{12}
+\contentsline {subsection}{\numberline {2.4}Benefits of Auto-grading and Practice Oriented Teaching of Programming}{12}
 \contentsline {subsection}{\numberline {2.5}Conclusion}{13}
 \contentsline {section}{\numberline {3}Methodology}{14}
 \contentsline {subsection}{\numberline {3.1}Data collection Methods and Tools}{14}
 \contentsline {subsubsection}{\numberline {3.1.1}Literature Review}{14}
 \contentsline {subsubsection}{\numberline {3.1.2}Interveiwing}{14}
 \contentsline {subsubsection}{\numberline {3.1.3}Questionnaires}{14}
-\contentsline {subsection}{\numberline {3.2}Designing the system}{14}
-\contentsline {subsubsection}{\numberline {3.2.1}UML Diagrams}{15}
-\contentsline {subsection}{\numberline {3.3}Implementing the Proposed System}{16}
-\contentsline {subsubsection}{\numberline {3.3.1}Android Studio}{16}
-\contentsline {subsubsection}{\numberline {3.3.2}NetBeans}{16}
-\contentsline {subsubsection}{\numberline {3.3.3}Wamp Server}{16}
-\contentsline {subsection}{\numberline {3.4}Other Software and Applications for Development}{16}
-\contentsline {subsubsection}{\numberline {3.4.1}Github}{16}
-\contentsline {subsubsection}{\numberline {3.4.2}Latex}{17}
-\contentsline {subsection}{\numberline {3.5}Testing the system}{17}
-\contentsline {section}{\numberline {4}Appendices}{20}
-\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{20}
-\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{20}
+\contentsline {subsection}{\numberline {3.2}Designing the System}{15}
+\contentsline {subsubsection}{\numberline {3.2.1}UML Diagrams}{16}
+\contentsline {subsection}{\numberline {3.3}Implementing the Proposed System}{17}
+\contentsline {subsubsection}{\numberline {3.3.1}Android Studio}{17}
+\contentsline {subsubsection}{\numberline {3.3.2}NetBeans}{17}
+\contentsline {subsubsection}{\numberline {3.3.3}Wamp Server}{17}
+\contentsline {subsection}{\numberline {3.4}Other Software and Applications for Development}{17}
+\contentsline {subsubsection}{\numberline {3.4.1}Github}{17}
+\contentsline {subsubsection}{\numberline {3.4.2}Latex}{18}
+\contentsline {subsection}{\numberline {3.5}Testing the System}{18}
+\contentsline {section}{\numberline {4}Appendices}{21}
+\contentsline {subsection}{\numberline {4.1}Appendix A: Activities Gantt chart}{21}
+\contentsline {subsection}{\numberline {4.2}Appendix B: Financial Requirements}{21}
