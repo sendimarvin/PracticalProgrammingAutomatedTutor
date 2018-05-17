@@ -1,0 +1,2 @@
+problemTitle:Add element in an array	problemDescription:You are to write a program in either C or Java that adds up all elements in an array given	inputFile:Values.txt	checkerFile:code.txt	timeLimit:20	memoryLimit:50
+problemTitle:Choose biggest in an Array	problemDescription:You are to write a program in either C or Java that selects the biggest element in the array and displays it	inputFile:Values.txt	checkerFile:code.txt	timeLimit:54	memoryLimit:
