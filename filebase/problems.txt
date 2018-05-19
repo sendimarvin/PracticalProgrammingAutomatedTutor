@@ -1,2 +1,4 @@
-problemTitle:Add element in an array	problemDescription:You are to write a program in either C or Java that adds up all elements in an array given	inputFile:Values.txt	checkerFile:code.txt	timeLimit:20	memoryLimit:50
-problemTitle:Choose biggest in an Array	problemDescription:You are to write a program in either C or Java that selects the biggest element in the array and displays it	inputFile:Values.txt	checkerFile:code.txt	timeLimit:54	memoryLimit:
+Add element in an array	You are to write a program in either C or Java that adds up all elements in an array given	inputFile:Values.txt	checkerFile:code.txt	timeLimit:20	memoryLimit:50
+Choose biggest in an Array	You are to write a program in either C or Java that selects the biggest element in the array and displays it	inputFile:Values.txt	checkerFile:code.txt	timeLimit:54	memoryLimit:
+Pi problem	A program that estimates the value of pi	inputFile:Values.txt	checkerFile:code.txt	timeLimit:45	memoryLimit:654
+problemTitle:Mine swiper	problemDescription:A program that detects mine from an input	inputFile:Values.txt	checkerFile:code.txt	timeLimit:433	memoryLimit:656

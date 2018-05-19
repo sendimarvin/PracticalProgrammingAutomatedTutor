@@ -1,3 +1,3 @@
-$(document).on("pagecreate","#page1", function(){ 
-
-});
+function loadProblem( ) {
+    window.location = "problem/problem.php";
+}
