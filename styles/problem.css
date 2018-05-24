@@ -1,0 +1,30 @@
+#problemStatement {
+    width: 60%;
+    height: fit-content;
+    background-color: rgb(160, 216, 158);    
+
+}
+
+#problemTitle{
+    font-size: 40px;
+
+}
+
+#problemDescrption {
+    font-size: 20px;
+}
+
+#inputFile {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+#testInput{
+    width: 40%;
+    height: fit-content;
+    background-color: rgb(147, 153, 147);
+}
+
+#topSection {
+    float: left;
+}

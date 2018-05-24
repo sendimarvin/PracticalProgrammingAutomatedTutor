@@ -3,8 +3,7 @@
     <head>
         <title>Programming Asignment Autogradder Plugin</title>
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
-        <!-- <link rel="stylesheet" type="text/css" href="styles/index.css"> -->
-
+        <link rel="stylesheet" type="text/css" href="styles/index.css">
     </head>
 
     <body>
@@ -26,16 +25,17 @@
                 $problemTitle = "";
                 $problemDescription = "";
                 $tabsEncountered = 0;
+                $idCount = 0;
                 while(!feof($problemsFile)) {
                     $characterRead = fgetc($problemsFile);
                     if (!strcmp($characterRead, "\t")){
                         $tabsEncountered = $tabsEncountered + 1;
                     } else if (!strcmp($characterRead, "\n")) {
-                        echo "<div class='list_holder' onclick = 'loadProblem()' style='height:  fit-content;width: 90%; margin-left:  5px; margin-right:  5px;  padding:  10px;
-                        background-color: #dad1d1; margin-bottom: 5px;'>
-                                    <div><strong>".$problemTitle."</strong></div>
+                        $idCount ++;
+                        echo "<div class='list_holder' id = 'problem".$idCount."' onclick = 'loadProblem(this.id)'>
+                                    <div id = 'titleproblem".$idCount."'><strong>".$problemTitle."</strong></div>
                                     <div>".$problemDescription."</div>
-                                    <div style = 'color: blue;'>attempt</div>
+                                    <div class = 'attempt' style = 'color: blue;'>attempt</div>
                                 </div>";
                        // echo "<br>".$problemTitle."0000".$problemDescription."<br>";
                         $problemTitle = $problemDescription = "";
@@ -50,7 +50,7 @@
 
             ?>
 
-            <div onClick = "loadProblem()" style="height:  fit-content;width: 90%; margin-left:  5px; margin-right:  5px;  padding:  10px;
+            <div id = "try" onclick = "loadProblem()" style="height:  fit-content;width: 90%; margin-left:  5px; margin-right:  5px;  padding:  10px;
     background-color: #dad1d1; margin-bottom: 5px;">
                 <div>name</div>
                 <div>Description</div>

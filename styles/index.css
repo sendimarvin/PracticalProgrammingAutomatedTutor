@@ -1,0 +1,18 @@
+
+    .list_holder {
+        height:  fit-content;
+        width: 90%; 
+        margin-left:  5px; 
+        margin-right:  5px;  
+        padding:  10px;
+        background-color: #dad1d1; 
+        margin-bottom: 5px;;
+    }
+
+    .list_holder:hover {
+        background-color: #75d8a1; 
+    }
+
+    .list_holder:hover .a {
+        text-decoration:underline;
+    }
