@@ -22,11 +22,11 @@
 }
 
 #testInput{
-    padding: 3px;
+    padding: 2%;
     margin-right: 1%;
-    width: 35%;
+    width: 33%;
     float: right;
-    margin-left: 5px;   
+    margin-left: 1%;   
     height: fit-content;
     background-color: rgb(220, 233, 220);
 }
