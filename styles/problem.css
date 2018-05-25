@@ -1,8 +1,10 @@
 #problemStatement {
+    padding: 1%px;
     width: 60%;
     height: fit-content;
-    background-color: rgb(160, 216, 158);    
-
+    background-color: rgb(211, 230, 211);
+    float: left;
+    margin-left: 1%
 }
 
 #problemTitle{
@@ -20,11 +22,15 @@
 }
 
 #testInput{
-    width: 40%;
+    padding: 3px;
+    margin-right: 1%;
+    width: 35%;
+    float: right;
+    margin-left: 5px;   
     height: fit-content;
-    background-color: rgb(147, 153, 147);
+    background-color: rgb(220, 233, 220);
 }
 
-#topSection {
-    float: left;
+.textArea{
+    width: 90%;
 }

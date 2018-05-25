@@ -35,9 +35,7 @@
 
                     </div>
 
-                    <div>I am left<div>
-
-                    <!-- <div id="testInput">
+                    <div id="testInput">
                         <form>
                             <div>
                                 <label>
@@ -45,7 +43,7 @@
                                 </label>
                     
                             <div>
-                                <textarea spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+                                <textarea spellcheck="true" rows="4" cols="10" tabindex="5" class="textArea"></textarea>
                             </div>
                             <div>
                                 <label>
@@ -53,10 +51,11 @@
                                 </label>
                     
                             <div>
-                                <textarea spellcheck="true" rows="10" cols="50" tabindex="4"></textarea>
+                                <textarea spellcheck="true" rows="4" cols="10" tabindex="5" class="textArea"></textarea>
                             </div>
+                            <input type="submit"/>
                         </form>
-                    </div> -->
+                    </div>
 
                     <?php
                         $problemTitle = $_GET["para1"];
