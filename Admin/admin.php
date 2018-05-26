@@ -22,6 +22,7 @@
                       <div id="status"> 
                         <?php
                           session_start();
+                          if (isset($_SESSION["status"]) )
                           echo "Problem:".$_SESSION["status"]." Has been successfully submitted";
                         ?>
                       </div>

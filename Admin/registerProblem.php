@@ -16,12 +16,12 @@
     echo "time Limit: ".$timeLimit."<br>";
     echo "memory Limit: ".$memoryLimit."<br>";
 
-    $formatProblemTitle = "problemTitle:".$problemTitle;
-    $formatProblemDescription = "problemDescription:".$problemDescription;
-    $formatInputFile = "inputFile:".$inputFile;
-    $formatCheckerFile = "checkerFile:".$checkerFile;
-    $formatTimeLimit = "timeLimit:".$timeLimit;
-    $formatMemoryLimit = "memoryLimit:".$memoryLimit;
+    $formatProblemTitle = "".$problemTitle;
+    $formatProblemDescription = "".$problemDescription;
+    $formatInputFile = "".$inputFile;
+    $formatCheckerFile = "".$checkerFile;
+    $formatTimeLimit = "".$timeLimit;
+    $formatMemoryLimit = "".$memoryLimit;
 
     $problemString = $formatProblemTitle."\t".$formatProblemDescription."\t".
     $formatInputFile."\t".$formatCheckerFile."\t".$formatTimeLimit."\t".

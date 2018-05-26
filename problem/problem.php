@@ -20,20 +20,40 @@
                 </div>
                 <div id = "topSection">
 
-                    <div id = "problemStatement">
-                        <div id="problemTitle"><strong>ProblemTitle</strong></div>
-                        <div id="problemDescrption">problemDescriotion</div>
-                        <div id="inputFile">
-                            <div>For example; If these values are input, the code must produce the corresponding values</div>
-                            <div></div>
-                        </div>
-                        <div>
-                            <div><strong> Note: your code must meet the following conditions</strong></div>
-                            <span>Time limit:  </span>
-                            <span>Memory Limit: </span>
-                        </div>
+                    <?php
+                        $problemTitle = $_GET["para1"];
 
-                    </div>
+                        $fullProblemArray = searchForProblemContent($problemTitle);                    
+                        //echo "<strong> desc:".$fullProblemArray[3]."</strong><br><br>";
+                
+
+                        function searchForProblemContent ($passedProblemTitle){
+                            $file = file_get_contents('../filebase/problems.txt', true);
+                            $n = explode("\n", $file);
+                            foreach($n as $line){
+                                $problemArray = explode("\t", $line);
+                                if($problemArray[0] == $passedProblemTitle){
+                                    return $problemArray;
+                                }
+                            }
+                        }
+                        $checkerFile = file_get_contents("../filebase/problems/".$fullProblemArray[0]."/".$fullProblemArray[2], true);
+                        echo "<div id = 'problemStatement'>
+                                <div id='problemTitle'><strong>".$fullProblemArray[0]."</strong></div>
+                                <div id='problemDescrption'>Problem Description</div>
+                                <div>".$fullProblemArray[1]."</div>
+                                <br>
+                                <div id='inputFile'>
+                                    <div> Test Input</div>
+                                    <div>".$checkerFile."</div>
+                                </div>
+                                <div>
+                                    <div><strong> Note: your code must meet the following conditions</strong></div><br>
+                                    <span>Time limit: ".$fullProblemArray[4]." </span><br>
+                                    <span>Memory Limit: .$fullProblemArray[5].</span><br>
+                                </div>
+                            </div>"
+                    ?>
 
                     <div id="testInput">
                         <form>
@@ -57,27 +77,21 @@
                         </form>
                     </div>
 
-                    <?php
-                        $problemTitle = $_GET["para1"];
-
-                        $fullProblemArray = searchForProblemContent($problemTitle);                    
-                        //echo "<strong> desc:".$fullProblemArray[3]."</strong><br><br>";
-                    
-
-                        function searchForProblemContent ($passedProblemTitle){
-                            $file = file_get_contents('../filebase/problems.txt', true);
-                            $n = explode("\n", $file);
-                            foreach($n as $line){
-                                $problemArray = explode("\t", $line);
-                                if($problemArray[0] == $passedProblemTitle){
-                                    return $problemArray;
-                                }
-                            }
-                        }
-                    ?>	
-
+                </div>
+                
+            </div>
+            
+            <div id="submissionField">
+                <br>
+                <div><span>Make your Submission from here</span></div>
+                <div id="formStyle">
+                    <form method="POST" action="results.php">
+                        <input type="file" name = "submittedCode">
+                        <input type="submit" name="submittedCode">
+                    </form>
                 </div>
             </div>
-        </div>  
+        </div> 
+        
     </body>
 </html>

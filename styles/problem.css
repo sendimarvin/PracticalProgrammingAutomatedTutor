@@ -34,3 +34,12 @@
 .textArea{
     width: 90%;
 }
+
+#submissionField{
+    margin-top: 20px;
+    background-color: brown;
+}
+
+#formStyle{
+    background-color: cadetblue;
+}
