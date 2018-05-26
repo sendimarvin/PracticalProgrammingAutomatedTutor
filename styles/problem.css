@@ -2,7 +2,7 @@
     padding: 1%px;
     width: 60%;
     height: fit-content;
-    background-color: rgb(211, 230, 211);
+    background-color: rgb(250, 250, 250);
     float: left;
     margin-left: 1%
 }
@@ -28,7 +28,7 @@
     float: right;
     margin-left: 1%;   
     height: fit-content;
-    background-color: rgb(220, 233, 220);
+    background-color: rgba(255, 255, 255, 0.911);
 }
 
 .textArea{
@@ -36,10 +36,14 @@
 }
 
 #submissionField{
-    margin-top: 20px;
-    background-color: brown;
+    border: solid 1px rgb(207, 202, 202);
+    display: inline-block;
+    margin: 10px;
+    background-color: rgb(248, 245, 245);
 }
 
 #formStyle{
-    background-color: cadetblue;
+    padding: 5px;
+    margin: 5px;
+    background-color: rgb(202, 212, 212);
 }

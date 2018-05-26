@@ -9,16 +9,17 @@
 
     <body>
         <script src="../script/script.js"></script>  
+
         <div id="top_div">
             <h3>Automated Assignment Autograder</h3>
             <h4>Go back to list of problems</h4>
         </div>
+
         <div id="body_div">
             <div data-role="page" id="page1">
                 <div id="head" data-role="header">
                     <h3>Problem Statement</h3> 
                 </div>
-                <div id = "topSection">
 
                     <?php
                         $problemTitle = $_GET["para1"];
@@ -62,35 +63,37 @@
                                     Input sample values
                                 </label>
                     
-                            <div>
-                                <textarea spellcheck="true" rows="4" cols="10" tabindex="5" class="textArea"></textarea>
-                            </div>
-                            <div>
-                                <label>
-                                    Out put values
-                                </label>
+                                <div>
+                                    <textarea spellcheck="true" rows="4" cols="10" tabindex="5" class="textArea"></textarea>
+                                </div>
+                                <div>
+                                    <label>
+                                        Out put values
+                                    </label>
                     
-                            <div>
-                                <textarea spellcheck="true" rows="4" cols="10" tabindex="5" class="textArea"></textarea>
+                                    <div>
+                                        <textarea spellcheck="true" rows="4" cols="10" tabindex="5" class="textArea"></textarea>
+                                    </div>
+                                </div>
+                                <input type="submit"/>
                             </div>
-                            <input type="submit"/>
                         </form>
                     </div>
 
+                <div id="submissionField">
+                    <br>
+                    
+                    <div id="formStyle">
+                        <div><span>Make your Submission from here</span></div>
+                        <form method="POST" action="results.php">
+                            <input type="file" name = "submittedCode">
+                            <input type="submit" name="submittedCode">
+                        </form>
+                    </div>
                 </div>
-                
+
             </div>
-            
-            <div id="submissionField">
-                <br>
-                <div><span>Make your Submission from here</span></div>
-                <div id="formStyle">
-                    <form method="POST" action="results.php">
-                        <input type="file" name = "submittedCode">
-                        <input type="submit" name="submittedCode">
-                    </form>
-                </div>
-            </div>
+
         </div> 
         
     </body>
