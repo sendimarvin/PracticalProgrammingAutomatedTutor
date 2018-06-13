@@ -3,7 +3,7 @@
 
     $email = "";
     $password = "";
-    $errorMessage = "User doesn't exixst";
+    $errorMessage = "user_doesnt_exist";
    if(isset($_POST['submit'])){
         $email = $_POST["email"];
         $password = $_POST["password"];
@@ -13,20 +13,16 @@
 
         if(is_null($result)){
             echo "<h1>results is null</h1>";
-            $_SESSION["error"] = $errorMessage;
-            header("Location: ../index.php?user=".$errorMessage);
+            header("Location: ../index.php?error=".$errorMessage);
             exit();
         }else{
             if($result["role"] === "admin"){
-                $_SESSION["email"] = $email;
                 header("Location: ../admin/admin.php?user=".$email);
                 exit();
             }else if($result["role"] === "student") {
-                $_SESSION["email"] = $email;
                 header("Location: ../problem/problems.php?user=".$email);
                 exit();
             }else{
-                $_SESSION["email"] = $email;
                 header("Location: ../problem/problems.php?user=".$email);
                 exit();
             }
@@ -35,7 +31,6 @@
         echo "<br>";
     }else{
        echo "Please put in login credentials";
-       $_SESSION["error"] = $errorMessage;
        header("Location: ../index.php?error=".$errorMessage);
        exit();
    }

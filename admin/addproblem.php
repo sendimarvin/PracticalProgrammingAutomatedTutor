@@ -20,9 +20,9 @@
             $_SESSION["email"] = $email;
             header("Location: ../problem/problems.php");
             exit();
-        }else{
-            echo "Error:   sql <br>" . $conn->error;
-        }
+            }else{
+                echo "Error:   sql <br>" . $conn->error;
+            }
 
     }else{
         echo "<br><span>Some values are null</span>";

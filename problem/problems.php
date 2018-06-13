@@ -41,8 +41,8 @@
                                 <button type="submit" class="btn btn-default">search Problem</button>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="../account/signup.php"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                          <li><a href="../index.php"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                          <li><a href="../account/signup.php"><span class="glyphicon glyphicon-user"></span><?php echo $_GET['user'];?></a></li>
+                          <li><a href="../index.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
                         </ul>
                       </div>
                     </div>
@@ -60,7 +60,7 @@
                 <?php
                   //print_r($result);
                   while($row = $result->fetch_assoc()) {
-                    echo " <a href='problem.php?id=" . $row['problemId']. "' class='list-group-item'>
+                    echo " <a href='problem.php?id=" . $row['problemId']. "&user=".$_GET['user']."' class='list-group-item'>
                     <h4 class='list-group-item-heading'>". $row['problemTitle']."</h4>
                     <p class='list-group-item-text'>" . $row["problemDescription"]. "</p>
                   </a>";

@@ -14,7 +14,7 @@
 
             //take user to home page
             $_SESSION["email"] = $email;
-            header("Location: ../problem/problems.php");
+            header("Location: ../problem/problems.php?user=".$email);
             exit();
         } else {
             if ($conn->error === "Duplicate entry '".$email."' for key 'PRIMARY'"){

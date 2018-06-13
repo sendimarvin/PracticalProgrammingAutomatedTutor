@@ -21,15 +21,15 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span> 
                         </button>
-                        <a class="navbar-brand" href="../problems.php">Programming Assignment Autograder</a>
+                        <a class="navbar-brand" href="../problem/problems.php">Programming Assignment Autograder</a>
                       </div>
                       <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                          <li class="active"><a href="../problems.php">Home</a></li>
+                          <li class="active"><a href="../problem/problems.php">Home</a></li>
                           <li><a href="#">Add Problem</a></li>
-                          <li><a href="../problems.php">View Problems</a></li> 
-                          <li><a href="../problems.php">View Students</a></li> 
-                          <li><a href="../problems.php">Add Student</a></li> 
+                          <li><a href="../problem/problems.php">View Problems</a></li> 
+                          <li><a href="../problem/problems.php">View Students</a></li> 
+                          <li><a href="../problem/problems.php">Add Student</a></li> 
                         </ul>
                         <form class="navbar-form navbar-left">
                                 <div class="form-group">

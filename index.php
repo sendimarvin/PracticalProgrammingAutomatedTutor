@@ -40,7 +40,14 @@
             <div class="container-fluid">
                 <h3>Welcome to prgramming Assignment Autograder</h3>
                 <p>Login to continue <a href="account/signup.php"> signUp</a></p>
-                <p class="panel-sucess">error</p>
+                <?php
+                  if(isset($_GET['error'])){
+                    echo "<p class='bg-danger'>".$_GET['error']."</p>";
+                  }else{
+
+                  }
+                ?>
+                
                 <div class="panel-group">
                     
                     <div class="panel panel-default">
