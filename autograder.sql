@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 14, 2018 at 01:58 PM
+-- Generation Time: Jun 14, 2018 at 04:00 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -64,7 +64,8 @@ CREATE TABLE `studentsubmissions` (
 --
 
 INSERT INTO `studentsubmissions` (`email`, `problemId`, `submission`, `result`) VALUES
-('s@gmail.com', 3, 's2', 'r2');
+('s@gmail.com', 1, 's2', 'r2'),
+('s1@gmail.com', 1, 'submission', 'result');
 
 -- --------------------------------------------------------
 
@@ -85,6 +86,7 @@ CREATE TABLE `user` (
 --
 
 INSERT INTO `user` (`email`, `firstName`, `secondName`, `password`, `role`) VALUES
+('s2@gmail.com', 'Micheal', 'Omar', 's2', NULL),
 ('sendimarvin1@gmail.com', 'Marvin', 'Sendikaddiwa', 'Aurora1!', 'student'),
 ('a@gmail.com', 'a', 'a', 'a', 'admin'),
 ('s@gmail.com', 's', 's', 's', 'student'),

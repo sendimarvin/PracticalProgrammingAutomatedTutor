@@ -89,22 +89,12 @@
 
 
                   <?php
-                    $sql2 = "SELECT * FROM `studentsubmissions` WHERE email = '".$_GET['user']."' AND problemId = '".$_GET['id']."'";
-                    $result2 = $conn->query($sql2)->fetch_assoc();
-                    $resultString = $result2["submission"];
+                    // $sql2 = "SELECT * FROM `studentsubmissions` WHERE email = '".$_GET['user']."' AND problemId = '".$_GET['id']."'";
+                    // $result2 = $conn->query($sql2)->fetch_assoc();
+                    // $resultString = $result2["submission"];
                     $sql3 = "SELECT * FROM `user` WHERE 1";
-                    $counter = 0;
-                    $result3 = $conn->query($sql3);
-                    while($row3 = $result3->fetch_assoc()){
-                      $counter++;
-                      if($row3['email'] === $_GET['user']){
-                        break;
-                      }else;
-                    }
-                        
-                    if($result2["result"]){
-                      $resultPath = "";
-                      $resultPath = "../filebase/studentsSubmissions/s".$counter."/r".$_GET["id"].".txt";
+                    $resultPath = "../filebase/studentsSubmissions/".substr($_GET['user'], 0,5)."/result.txt";
+                    if(file_exists($resultPath)){
                       $resultsFile = file_get_contents($resultPath, true);
                       echo "<div class='panel panel-warning'>
                       <div class='panel-heading'> <h4 >previous results</h4></div>
