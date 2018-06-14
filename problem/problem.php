@@ -27,15 +27,13 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span>
                         </button>
-                        <a class="navbar-brand" href="problems.php">Programming Assignment Autograder</a>
+                        echo "<a class='navbar-brand' href='problems.php?user='".$_GET['user'].">Programming Assignment Autograder</a>";
                       </div>
                       <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                          <li class="active"><a href="problems.php">Home</a></li>
                           <?php
-                            echo "<li><a href='problems.php?user=".$_GET['user']."'>Category</a></li>";
+                            echo "<li class='active'><a href='problems.php?user=".$_GET['user']."'>Home</a></li>";
                             echo "<li><a href='problems.php?user=".$_GET['user']."'>Easy</a></li>";
-                            echo "<li><a href='problems.php?user=".$_GET['user']."'>Medium</a></li>";
                             echo "<li><a href='problems.php?user=".$_GET['user']."'>Hard</a></li>";
                           
                           ?>
@@ -44,11 +42,11 @@
                                 <div class="form-group">
                                   <input type="text" class="form-control" placeholder="Search">
                                 </div>
-                                <button type="submit" class="btn btn-default">search Problem</button>
+                                <button type="submit" class="btn btn-default">search</button>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="../account/signup.php"><span class="glyphicon glyphicon-user"></span><?php echo $_GET['user']?></a></li>
-                          <li><a href="../index.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                          <li><a href="../account/signup.php"><span class="glyphicon glyphicon-user"></span><?php echo substr($_GET['user'], 0,15)."...";?></a></li>
+                          <li><a href="../index.php"><span class="glyphicon glyphicon-log-in"></span>Logout</a></li>
                         </ul>
                       </div>
                     </div>
@@ -94,10 +92,19 @@
                     $sql2 = "SELECT * FROM `studentsubmissions` WHERE email = '".$_GET['user']."' AND problemId = '".$_GET['id']."'";
                     $result2 = $conn->query($sql2)->fetch_assoc();
                     $resultString = $result2["submission"];
+                    $sql3 = "SELECT * FROM `user` WHERE 1";
+                    $counter = 0;
+                    $result3 = $conn->query($sql3);
+                    while($row3 = $result3->fetch_assoc()){
+                      $counter++;
+                      if($row3['email'] === $_GET['user']){
+                        break;
+                      }else;
+                    }
                         
                     if($result2["result"]){
                       $resultPath = "";
-                      $resultPath = "../filebase/student/results/r".$_GET["id"].".txt";
+                      $resultPath = "../filebase/studentsSubmissions/s".$counter."/r".$_GET["id"].".txt";
                       $resultsFile = file_get_contents($resultPath, true);
                       echo "<div class='panel panel-warning'>
                       <div class='panel-heading'> <h4 >previous results</h4></div>
@@ -135,20 +142,35 @@
                   </div>
                 </div>
               </div>
+
+              <?php
+                $output = "your results";
+                if(isset($_POST['submit'])){
+                  $input = "";
+                  $input = $_POST['inputValues'];
+                  $output = $input;
+                }else{
+
+                }
+              ?>
+
+
             <div class="col-md-3">  
               <div class="panel panel-success">
                 <div class="panel-heading"> <h4>Test your Program</h4></div>
                   <div class="panel-body">
-                    <form class="form-horizontal"  method="POST">
+                    <form class="form-horizontal"  method="POST" action="#">
                       <div class="form-group">
-                        <label for="comment">Input Sample Values:</label>
-                        <textarea class="form-control" rows="3" id="comment"></textarea>
+                        <label for="inputValues">Input Sample Values:</label>
+                        <textarea class="form-control" rows="3" id="inputValues" name="inputValues"></textarea>
                       </div>
                       <div class="form-group">
-                        <label for="comment">Output Results:</label>
-                        <textarea class="form-control" rows="3" id="comment"></textarea>
+                        <label for="outputResults">Output Results:</label>
+                        <?php
+                          echo "<textarea class='form-control' rows='3' id='outputResults' placeholder='$output' id='outputResults'></textarea>";
+                        ?>
                       </div>
-                      <button type="submit" class="btn btn-default">Submit</button>
+                      <button type="submit" class="btn btn-default" name="submit">Submit</button>
                     </form>
                   </div>
                 </div>

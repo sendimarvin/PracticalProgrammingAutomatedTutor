@@ -21,15 +21,16 @@
                           <span class="icon-bar"></span>
                           <span class="icon-bar"></span> 
                         </button>
-                        <a class="navbar-brand" href="../problem/problems.php">Programming Assignment Autograder</a>
+                        <a class="navbar-brand" href="#">Programming Assignment Autograder</a>
                       </div>
                       <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
-                          <li class="active"><a href="../problem/problems.php">Home</a></li>
+                          <li class="active"><a href="#">Home</a></li>
                           <li><a href="#">Add Problem</a></li>
-                          <li><a href="../problem/problems.php">View Problems</a></li> 
-                          <li><a href="../problem/problems.php">View Students</a></li> 
-                          <li><a href="../problem/problems.php">Add Student</a></li> 
+                          <?php
+                            echo "<li><a href='../problem/problems.php?user=".$_GET['user']."'>View Problems</a></li>";
+                            echo "<li><a href='../problem/problems.php?user=".$_GET['user']."'>View Students</a></li>"; 
+                          ?>
                         </ul>
                         <form class="navbar-form navbar-left">
                                 <div class="form-group">
@@ -51,7 +52,9 @@
                     <div class="panel panel-default">
                         <div class="panel-heading"> <h4>Add Problem</h4></div>
                       <div class="panel-body">
-                          <form class="form-horizontal" action = "addproblem.php" method="POST" enctype="multipart/form-data">
+                          <?php
+                            echo "<form class='form-horizontal' action = 'addproblem.php?user='".$_GET['user']."  method='POST' enctype='multipart/form-data'>";
+                          ?>
                               <div class="form-group">
                                 <label class="control-label col-sm-3" for="problem_title">Problem Title:</label>
                                 <div class="col-sm-6">

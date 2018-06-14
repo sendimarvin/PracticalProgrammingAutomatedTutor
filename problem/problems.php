@@ -29,9 +29,7 @@
                       <div class="collapse navbar-collapse" id="myNavbar">
                         <ul class="nav navbar-nav">
                           <li class="active"><a href="#">Home</a></li>
-                          <li><a href="#">Category</a></li>
-                          <li><a href="#">Easy</a></li> 
-                          <li><a href="#">Medium</a></li> 
+                          <li><a href="#">Easy</a></li>
                           <li><a href="#">Hard</a></li> 
                         </ul>
                         <form class="navbar-form navbar-left">
@@ -41,7 +39,7 @@
                                 <button type="submit" class="btn btn-default">search Problem</button>
                         </form>
                         <ul class="nav navbar-nav navbar-right">
-                          <li><a href="../account/signup.php"><span class="glyphicon glyphicon-user"></span><?php echo $_GET['user'];?></a></li>
+                          <li><a href="../account/signup.php"><span class="glyphicon glyphicon-user"></span><?php echo substr($_GET['user'], 0, 5)."...";?></a></li>
                           <li><a href="../index.php"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
                         </ul>
                       </div>
@@ -56,6 +54,8 @@
             <div class="container-fluid">
                 <h3>Choose Problem to Try</h3>
                 <p>click on the problem</p>
+
+
                 <div class="list-group">
                 <?php
                   //print_r($result);
@@ -65,17 +65,9 @@
                     <p class='list-group-item-text'>" . $row["problemDescription"]. "</p>
                   </a>";
                   }
-                ?>  
-                    <a href="problem.php" class="list-group-item">
-                      <h4 class="list-group-item-heading">First List Group Item Heading</h4>
-                      <p class="list-group-item-text">List Group Item Text</p>
-                    </a>
-                    <a href="problem.php" class="list-group-item">
-                      <h4 class="list-group-item-heading">Second List Group Item Heading</h4>
-                      <p class="list-group-item-text">List Group Item Text</p>
-                    </a>
+                ?> 
                     
-                  </div> 
+              </div> 
             </div>
         </div>
         <div class="col-md-3"></div>

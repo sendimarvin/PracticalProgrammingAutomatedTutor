@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jun 13, 2018 at 03:03 PM
+-- Generation Time: Jun 14, 2018 at 01:58 PM
 -- Server version: 5.7.14
 -- PHP Version: 5.6.25
 
@@ -28,12 +28,12 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `problem` (
   `problemId` int(5) NOT NULL,
-  `problemTitle` text NOT NULL,
+  `problemTitle` varchar(30) DEFAULT NULL,
   `problemDescription` text NOT NULL,
-  `inputFile` blob NOT NULL,
-  `checkerFile` blob NOT NULL,
-  `timeLimit` int(5) NOT NULL,
-  `memoryLimit` int(5) NOT NULL
+  `inputFile` varchar(10) NOT NULL,
+  `checkerFile` varchar(10) NOT NULL,
+  `timeLimit` int(11) NOT NULL,
+  `memoryLimit` int(11) NOT NULL
 ) ENGINE=MyISAM DEFAULT CHARSET=latin1;
 
 --
@@ -41,9 +41,10 @@ CREATE TABLE `problem` (
 --
 
 INSERT INTO `problem` (`problemId`, `problemTitle`, `problemDescription`, `inputFile`, `checkerFile`, `timeLimit`, `memoryLimit`) VALUES
-(2, 'Quick sort', 'Write a c program that uses quick algorithm to sort ', 0x433a77616d703634096d70706870394144362e746d70, 0x433a77616d703634096d70706870394145372e746d70, 324, 43),
-(1, 'Binary sort', 'Write a c program that uses biary algorithm to sort ', 0x433a77616d703634096d70706870334545392e746d70, 0x433a77616d703634096d70706870334545412e746d70, 324, 43),
-(0, 'Fibonacci', 'write a java program that prints out the first 10 fibonacci numbers', 0x433a77616d703634096d70706870393130382e746d70, 0x433a77616d703634096d70706870393132382e746d70, 4545, 543);
+(2, 'Binary sort', 'Write a java program that sort arrays using binary Algorithm', 'i2', 'c2', 166, 321),
+(1, 'fibonacci', 'Write a jaa program that printf the first 10 numbers in the fibonacci series', 'i1', 'c1', 42, 423),
+(0, 'Binary sort', 'Write a java program that sort arrays using binary Algorithm', 'i0', 'c0', 166, 321),
+(3, 'Binary sort', 'Write a java program that sort arrays using binary Algorithm', 'i3', 'c3', 166, 321);
 
 -- --------------------------------------------------------
 
@@ -63,8 +64,7 @@ CREATE TABLE `studentsubmissions` (
 --
 
 INSERT INTO `studentsubmissions` (`email`, `problemId`, `submission`, `result`) VALUES
-('s1@gmail.com', 2, 's2', 'r2'),
-('s@gmail.com', 2, 's2', 'r2');
+('s@gmail.com', 3, 's2', 'r2');
 
 -- --------------------------------------------------------
 
