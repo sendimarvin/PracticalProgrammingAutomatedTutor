@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane id="AnchorPane" prefHeight="114.0" prefWidth="145.0" xmlns="http://javafx.com/javafx/8.0.60" xmlns:fx="http://javafx.com/fxml/1" fx:controller="bt_in_class_autograder.AppController">
+   <children>
+      <VBox prefHeight="200.0" prefWidth="171.0" style="-fx-padding: 10;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <children>
+            <Label prefHeight="21.0" prefWidth="207.0" text="Select Access Method" />
+            <Button fx:id="student" mnemonicParsing="false" onAction="#onStudent" prefHeight="25.0" prefWidth="133.0" text="Student">
+               <VBox.margin>
+                  <Insets bottom="10.0" top="10.0" />
+               </VBox.margin>
+            </Button>
+            <Button fx:id="lecturer" mnemonicParsing="false" onAction="#onLecturer" prefHeight="25.0" prefWidth="134.0" text="Lecturer" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
