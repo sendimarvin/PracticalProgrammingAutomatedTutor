@@ -1,0 +1,1 @@
+Add 2 numbers	Write a program that reads 2 numbers from standard input and outputs their sum.	input.txt	output.txt

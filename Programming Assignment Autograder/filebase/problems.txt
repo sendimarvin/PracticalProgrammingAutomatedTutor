@@ -1,0 +1,3 @@
+Even Problem	You are to write program in a language of your choice that prints out Even numbers from a submitted Array.	Values.txt	code.txt	1232	54
+Odd problem	Write a C program that prints out all odd numbers from an array provided	Values.txt	code.txt	54	100
+Bubble sort	Write a program that uses bubble sort to sort elements in an array provided.	Values.txt	code.txt	100	45
